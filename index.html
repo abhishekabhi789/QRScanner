@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRScanner - Fast & Secure QR Code Scanner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 700;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+            font-weight: 700;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        .features,
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            text-align: left;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        h1,
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        @media (prefers-color-scheme: light) {
+            body {
+                background-color: #ffffff;
+                color: #000000;
+            }
+
+            header {
+                background: #f1f1f1;
+            }
+
+            nav a {
+                color: #000000;
+            }
+
+            .btn {
+                background: #007bff;
+                color: white;
+            }
+
+            .btn:hover {
+                background: #0056b3;
+            }
+
+            footer {
+                background: #f1f1f1;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #121212;
+                color: white;
+            }
+
+            header {
+                background: #1e1e1e;
+            }
+
+            nav a {
+                color: white;
+            }
+
+            .btn:hover {
+               scale: 1.024;
+            }
+
+            footer {
+                background: #1e1e1e;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <h1>QRScanner</h1>
+            </div>
+            <div>
+                <a href="#features">Features</a>
+                <a href="#download">Download</a>
+                <a href="#privacy">Privacy</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="features">
+        <h2>🔥 Why Choose QRScanner?</h2>
+        <div class="features">
+            <p>🚀 <b>Fast & Reliable</b> – ML Kit ensures quick and accurate scanning.</p>
+            <p>📸 <b>Multi-Format Support</b> – Detects various QR and barcode formats.</p>
+            <p>🖼️ <b>Scan from Images</b> – Load images from gallery.</p>
+            <p>🔲 <b>Multi-Code Detection</b> – Scan multiple codes at once.</p>
+            <p>🎯 <b>Precise Detection</b> – Bounding boxes highlight detected codes.</p>
+            <!-- <p>📂 <b>Easy Export</b> – Save or share scanned data effortlessly.</p> -->
+        </div>
+    </section>
+
+    <section id="download">
+        <h2>🚀 Download QRScanner</h2>
+        <a href="https://play.google.com/store/apps/details?id=io.github.abhishekabhi789.qrscanner" class="btn"
+            target="_blank"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="240" alt="get it on Google Play"/></a>
+    </section>
+
+    <section id="privacy">
+        <h2>🔒 Privacy First</h2>
+        <p>QRScanner does <b>not</b> store or upload scanned data. Everything remains on your device unless you choose
+            to share it.</p>
+        <p><a href="/Privacy_Policy.html">Read Privacy Policy</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 QRScanner. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
