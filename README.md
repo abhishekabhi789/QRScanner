@@ -1,4 +1,4 @@
-*# QRScanner – Fast & Secure QR Code Scanner  
+# QRScanner – Fast & Secure QR Code Scanner  
 
 **QRScanner** is a lightweight and efficient QR code scanner built with modern Android technologies like **CameraX**, **ML Kit**, and **Jetpack Compose**. Whether you're scanning QR codes, barcodes, or multi-code formats, QRScanner ensures fast and accurate detection.  
 
